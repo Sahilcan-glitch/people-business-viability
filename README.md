@@ -2,6 +2,8 @@
 
 A Streamlit app that helps assess the **business viability of people audiences**.
 
+Visit : https://people-business-viability.streamlit.app
+
 You can:
 - 📂 Upload a **CSV** of people profiles (first name, last name, email, country, blurb, etc.)
 - 📧 Paste one or many **email addresses**
@@ -32,6 +34,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # run app
-export OPENAI_API_KEY=sk-...   # optional
+
 streamlit run apppeoplefinder.py# people-business-viability
 Perfect for testing market fit, event interest, or audience viability.
